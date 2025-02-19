@@ -1,0 +1,17 @@
+nav {
+    background-color: #a52a2a;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #141313;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4px 8px;
+}
