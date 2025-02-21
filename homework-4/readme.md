@@ -2,4 +2,7 @@
 
 ### no period inside a link for the final one, just no comma then close it
 
-[Index]("")
+### ask in class why it still says login and store in the nav bar
+
+[Index]( https://tastuck.github.io/N220/homework-4/index.html)
+
