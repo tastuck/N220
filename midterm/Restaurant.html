@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu</title>
+</head>
+<body>
+<h1>Restaurant Menu </h1>
+<p>You have been hired by a local restaurant to develop an online ordering system for customers.
+    The restaurant's menu is listed below.
+    You must show all of the menu items and give customers a way to add them to the cart.
+    After adding an item, customers should be able to remove specific items or add a special request.
+    The special request should be able to change as needed.
+    The owner has tasked you with tracking one more piece of information about the items
+    in cart to help them properly prepare the order.
+</p>
+
+<h2>Menu</h2>
+<ul id="Menu" style="accent-color: dodgerblue"></ul>
+
+<h2>Cart</h2>
+
+    <table id="cart">
+        <tr id="items"></tr>
+        <tr>
+            <td>Item Name</td>
+            <td>Price</td>
+            <td>Special Request</td>
+            <td>Actions</td>
+        </tr>
+<!--add a row with the id no-items and a data-cell text No items in cart-->
+        <tr id="no-items">
+            <td colspan="4">No items in cart</td>
+        </tr>
+        <tr>
+    </table>
+<button id="remove-item">-</button>
+
+<script src="js/restaurant.js"></script>
+
+</body>
+</html>

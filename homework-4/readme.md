@@ -6,3 +6,4 @@
 
 [Index]( https://tastuck.github.io/N220/homework-4/index.html)
 
+https://tastuck.github.io/N220/midterm/index.html
